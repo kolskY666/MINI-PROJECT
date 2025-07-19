@@ -1,21 +1,24 @@
-# 🎯 MINI PROJECT - Azril Agta
+# Kalkulator Sederhana - Python 🧮
 
-Selamat datang di repositori **MINI PROJECT** saya!  
-Repo ini berisi beberapa proyek Python sederhana yang saya buat untuk belajar dan mengasah kemampuan ngoding.
+Ini adalah proyek **Kalkulator Sederhana** berbasis Python yang dapat melakukan berbagai operasi matematika, seperti:
+- Penjumlahan
+- Pengurangan
+- Perkalian
+- Pembagian
+- Modulus
+- Pangkat
+- Akar kuadrat
+- Logaritma basis 10
+- Faktorial
 
-## 📂 Isi Proyek
+### 🎯 Tujuan
+Membuat program kalkulator yang dapat dijalankan di terminal dengan antarmuka sederhana, cocok untuk latihan logika dan penggunaan `if-else`, perulangan, dan modul `math`.
 
-### 1. 🎵 Lirik Berjalan yang Selaras dengan Lagu
-Program ini menampilkan lirik lagu satu per satu seperti karaoke.
+---
 
-### 2. 🧮 Kalkulator Sederhana
-Program kalkulator yang bisa menjumlah, mengurang, mengalikan, dan membagi.
+## 🚀 Cara Menjalankan Program
 
-### 3. 🎢 Wahana Roller Coaster
-Program untuk cek apakah seseorang boleh masuk wahana berdasarkan usia, tinggi, dan riwayat penyakit.
-
-## 🚀 Cara Menjalankan
-
-Pastikan kamu sudah install Python. Lalu jalankan program dengan cara:
+1. Pastikan Python sudah terinstall.
+2. Jalankan file `.py` di terminal:
 ```bash
-python nama_file.py
+python kalkulator.py
