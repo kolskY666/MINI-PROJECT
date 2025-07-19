@@ -1,0 +1,44 @@
+🎵 LIRIK LAGU DI TERMINAL - PYTHON 🎶
+
+📄 Deskripsi:
+Program ini menampilkan lirik lagu "About You" dari The 1975 secara perlahan di terminal, dengan efek huruf demi huruf dan jeda antar baris. Cocok untuk latihan coding Python dasar menggunakan sys dan time.
+
+✨ Fitur:
+
+📝 Menampilkan lirik dengan efek ketikan dramatis
+
+⏱️ Jeda antar huruf dan antar baris
+
+🎧 Nama lagu ditampilkan otomatis
+
+💻 Bisa dijalankan langsung dari terminal
+
+⚙️ Cara Menjalankan:
+
+Pastikan Python sudah terinstal 🐍
+
+Simpan file dengan nama lirik.py
+
+Jalankan dengan perintah:
+python lirik.py
+
+🎯 Tujuan Proyek:
+
+Belajar sys.stdout.flush() untuk animasi teks
+
+Menggunakan time.sleep() untuk delay
+
+Menciptakan efek visual yang menarik di terminal
+
+🔍 Contoh Output:
+
+vbnet
+Salin
+Edit
+About You - The 1975  
+Hold on and hope that we'll find our way back in the end  
+Do you think I have forgotten ?  
+Do you think I have forgotten ?  
+Do you think I have forgotten about you ?  
+...  
+code by: kolskY
