@@ -1,0 +1,56 @@
+🎢 PROGRAM WAHANA ROLLER COASTER - PYTHON 🎟️
+
+📄 Deskripsi:
+Program ini mensimulasikan sistem pemeriksaan syarat untuk menaiki wahana roller coaster. Pengguna akan diminta untuk memasukkan usia, tinggi badan, dan status kesehatan. Program akan mengecek apakah mereka memenuhi syarat.
+
+✨ Fitur:
+
+🧓 Memeriksa usia minimal 15 tahun
+
+📏 Memeriksa tinggi minimal 150 cm
+
+❤️ Memastikan tidak ada riwayat penyakit
+
+🟢 Menampilkan pesan lolos atau tidak lolos
+
+🔁 Berjalan terus-menerus (loop) hingga dihentikan secara manual
+
+⚙️ Cara Menjalankan:
+
+Pastikan Python sudah terinstal di perangkatmu
+
+Simpan kode dalam file roller_coaster.py
+
+Jalankan di terminal atau cmd:
+python roller_coaster.py
+
+🧠 Tujuan Proyek:
+
+Latihan membuat pengkondisian dengan if, elif, dan else
+
+Melatih penggunaan input() dan while True
+
+Menyusun logika pemeriksaan seperti di dunia nyata
+
+Memberikan pengalaman bermain peran lewat terminal
+
+🔍 Contoh Output:
+
+diff
+Salin
+Edit
+====== SELAMAT DATANG DI WAHANA ROLLER COSTER =====
+PERATURAN WAHANA
+1.MINIMAL BERUSIA 15 TAHUN
+2.TINGGI MINIMAL 150 CM
+3.TIDAK ADA RIWAYAT PENYAKIT
+
+Masukkan usia anda: 14
+Masukkan tinggi anda: 145
+APAKAH ADA RIWAYAT SAKIT? :y/n y
+
+❌ Maaf, Anda tidak diperbolehkan naik wahana.
+Alasan:
+- Usia kurang dari 15 tahun
+- Tinggi kurang dari 150 cm
+- Ada riwayat penyakit
