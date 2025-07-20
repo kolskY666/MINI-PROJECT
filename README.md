@@ -1,51 +1,82 @@
-# 🎯 MINI PROJECT - Azril Agta
 
-Selamat datang di repositori **MINI PROJECT** saya!  
-Repo ini berisi beberapa proyek Python sederhana yang saya buat untuk belajar dan mengasah kemampuan ngoding.
+# 🐔 Warung Lalapan Khas Madura
 
-## 📂 Isi Proyek
+Aplikasi kasir sederhana berbasis teks untuk menghitung total pesanan di warung makan.
 
-### 1. 🎵 Lirik Berjalan yang Selaras dengan Lagu
-**Deskripsi:**  
-Program ini menampilkan lirik lagu satu per satu dengan efek seperti karaoke. Lirik akan muncul secara perlahan dengan jeda waktu agar terlihat dramatis dan sinkron dengan musik.
+## 📌 Deskripsi
 
-**Fitur:**
-- Lirik muncul dengan kecepatan tertentu
-- Menggunakan `time.sleep()` dan `sys.stdout.flush()` untuk efek real-time
+Program ini digunakan untuk mencatat pesanan makanan/minuman pelanggan di sebuah warung makan. Pengguna akan memasukkan pesanan, jumlah, dan harga satuan, lalu program akan menghitung total belanja dan mencetak struk sederhana.
 
-**Teknologi:** Python (`sys`, `time`)
+## 🎯 Fitur
+
+- Menampilkan menu makanan dan minuman.
+- Input pesanan secara fleksibel sampai mengetik `selesai`.
+- Menyimpan data pesanan, jumlah, dan harga.
+- Menampilkan struk belanja dengan perhitungan subtotal dan total.
+- Format harga otomatis dalam ribuan (contoh: 18,000).
+
+## ▶️ Cara Menjalankan
+
+1. Buka terminal atau Command Prompt.
+2. Jalankan file Python:
+   ```bash
+   python warung_lalapan.py
+   ```
+3. Ikuti petunjuk input:
+   - Masukkan nama pesanan
+   - Masukkan jumlah
+   - Masukkan harga satuan
+   - Ketik `selesai` jika sudah cukup
+
+## 📦 Contoh Output
+
+```
+=======================================
+WARUNG LALAPAN KHAS MADURA
+=======================================
+Daftar Menu dan Harga:
+=======================================
+MAKANAN
+=======================================
+Ayam bumbu hitam: 18.000
+Bebek bumbu hitam: 20.000
+...
+Masukkan yang ingin Anda pesan: ayam bumbu hitam
+Masukkan jumlah: 2
+Masukkan harga: 18000
+...
+
+=======================================
+STRUK PEMBELIAN
+=======================================
+Ayam Bumbu Hitam (2 x 18,000) = 36,000
+...
+Total yang harus dibayar: 36,000
+```
+
+## 🛠️ Teknologi
+
+- Python 3
+- Terminal/Command Line
+
+## 📚 Pembelajaran yang Diperoleh
+
+- Menggunakan list untuk menyimpan data dinamis
+- Menggunakan loop dan kondisi
+- Penanganan error dengan `try-except`
+- Perhitungan matematika sederhana
+- Format string dan tampilan user-friendly
 
 ---
 
-### 2. 🧮 Kalkulator Sederhana
-**Deskripsi:**  
-Aplikasi kalkulator dasar yang menerima input dari pengguna dan menjalankan operasi seperti penjumlahan, pengurangan, perkalian, dan pembagian.
-
-**Fitur:**
-- Input angka dan operator dari user
-- Hasil langsung ditampilkan
-- Bisa diulang
-
-**Teknologi:** Python (`input`, `if/else`)
+✅ Cocok untuk latihan Python dasar seperti:
+- `input()`, `print()`, `if`, `while`, `for`, `list`, dan `function`
 
 ---
 
-### 3. 🎢 Wahana Roller Coaster
-**Deskripsi:**  
-Program ini mensimulasikan pemeriksaan pengunjung wahana roller coaster berdasarkan usia, tinggi badan, dan riwayat penyakit.
+## 📈 Rencana Pengembangan
 
-**Fitur:**
-- Menampilkan peraturan wahana
-- Input data pengunjung
-- Keputusan: boleh masuk atau tidak
-
-**Teknologi:** Python (`if`, `float`, `print`)
-
----
-
-## 🚀 Cara Menjalankan
-
-Pastikan Python sudah terinstall. Jalankan program dari terminal atau IDE:
-
-```bash
-python nama_file.py
+- Menambahkan validasi menu
+- Menyimpan struk ke file `.txt`
+- Menambahkan sistem admin dan pelanggan
+- Menambahkan fitur diskon/pajak
